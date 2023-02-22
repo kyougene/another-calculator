@@ -32,7 +32,6 @@ body {
 
 .button {
     font-size: 1.3rem;
-    flex-grow: 1;
     width: 25%;
     height: 25%;
     background-color: transparent;
@@ -63,10 +62,6 @@ body {
     max-width: 85%;
 }
 
-#allclear {
-    flex-basis: 50%;
-}
-
-#equal {
+#allclear, #equal {
     flex-basis: 50%;
 }
