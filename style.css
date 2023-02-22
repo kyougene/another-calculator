@@ -39,6 +39,11 @@ body {
     border: 2px solid white;
 }
 
+.button:hover {
+    background-color: #ffcbc4;
+    cursor: pointer;
+}
+
 .display {
     display: flex;
     flex-direction: column;
