@@ -51,21 +51,23 @@ body {
     justify-content: space-around;
     border: 2px solid white;
     overflow-wrap: break-word;
+    overflow: auto;
 }
 
 .top {
     margin-right: 5px;
-    font-size: 0.7rem;
+    font-size: 1.2rem;
     color: grey;
 }
 
 .bottom {
     margin-right: 5px;
     color: black;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     font-weight: bold;
     word-wrap: break-word;
     max-width: 85%;
+    max-height: 50%;
 }
 
 #allclear, #equal {
